@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing:border-box;
+
+}
+
+.container{
+    justify-content: center;
+    margin: auto;
+    padding: 30px;
+    width: auto;    
+    height: 950px;
+    border-radius: 10px;
+    /*box-shadow: 0 4px 8px rgba(139, 73, 73, 0.1);*/
+    background: lightsalmon;
+    text-align: center;
+    align-self: center;
+   
+    
+}
+
+h1{
+    margin-bottom:30px;
+    color: #333;
+}
+
+input{
+    padding: 10px;
+    width:auto;
+    border:1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+button{
+    padding:5px;
+    border: 2px;
+    background-color: greenyellow;
+    color:black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2188
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+li{
+    background-color: #f8f8f8;
+    padding: 10px;
+    margin: 5px 0;
+    width: auto;
+    border-radius:5px;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+
+li button{
+    background-color: #dc3545;
+    border:none;
+    color:white;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+li button hover {
+    background-color: aquamarine;
+}
+
+#taskHeading {
+    float: left;          /* Float the heading to the left */
+    margin-top: 20px;
+    font-size: 20px;
+    color: #333;
+    visibility: hidden;
+  }
+  
